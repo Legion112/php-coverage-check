@@ -1,0 +1,14 @@
+{
+    "bin": [
+        "coverage-check.php"
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/console": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Legion112\\CoverageCheck\\": "src"
+        }
+    }
+}

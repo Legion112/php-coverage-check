@@ -1,0 +1,4 @@
+#!/bin/sh
+dir="$( dirname -- "$0"; )"
+# shellcheck disable=SC2068
+exec $dir/coverage-check $@
