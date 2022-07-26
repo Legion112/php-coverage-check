@@ -1,7 +1,7 @@
 # CoverageCheck 
 A CLI tool that would help to maintan hight level of coverage in a repository with phpuint. 
 ## Feature
-1. Check coverage report with previus value stored in the repository in config file if it worse return error code (1);
+1. Check coverage report with previus value stored in the repository in config `coverage-check.xml` file if it worse return error code (1);
 2. Modify config value if coverage has imporved and the `--save-improvement` option passed. 
 
 Command check if coverage report better then curren one saved previously in file and commited to repo.
